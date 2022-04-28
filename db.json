@@ -1,0 +1,33 @@
+{
+  "contacts": [
+    {
+      "name": "Talgat",
+      "number": "+996 - 702 - 85 - 63 - 89",
+      "id": 1,
+      "status": false
+    },
+    {
+      "name": "Anton",
+      "number": "+996 - 556 - 75 - 40 - 32",
+      "id": 2,
+      "status": true
+    },
+    {
+      "name": "",
+      "number": "",
+      "id": 5,
+      "status": false
+    },
+    {
+      "name": "",
+      "number": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "number": "",
+      "id": 7,
+      "status": false
+    }
+  ]
+}

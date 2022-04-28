@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import './login.css';
+
+
 
 const Account = () => {
     const [mail, setMail] = useState('');
@@ -57,15 +60,15 @@ const Account = () => {
 
             <div className='login'>
             <div className="form_auth_block">
-  <div className="form_auth_block_content">
+    <div className="form_auth_block_content">
     <p className="form_auth_block_head_text">Авторизация</p>
     <form className="form_auth_style" action="#" method="post">
-      <label>E-mail <span id='err-pass'> {textMail} </span> </label>
-      <input type="email" name="auth_email" value={mail} placeholder="Введите Ваш имейл" onChange={handleMail} required />
-      <label>Password</label>
-      <input type="password" name="auth_pass" value={password1} placeholder="Введите пароль" onChange={handlePass1} required />
-      <label>Password again <span id='err-pass'> {text} </span> </label>
-      <input type="password" name="auth_pass" value={password2} placeholder="Введите пароль" onChange={handlePass2} required />
+        <label>E-mail <span id='err-pass'> {textMail} </span> </label>
+        <input type="email" name="auth_email" value={mail} placeholder="Введите Ваш имейл" onChange={handleMail} required />
+        <label>Password</label>
+        <input type="password" name="auth_pass" value={password1} placeholder="Введите пароль" onChange={handlePass1} required />
+        <label>Password again <span id='err-pass'> {text} </span> </label>
+        <input type="password" name="auth_pass" value={password2} placeholder="Введите пароль" onChange={handlePass2} required />
       
       <button className="form_auth_button" type="submit" name="form_auth_submit" onClick={login}>Войти</button>
       <button className="form_exit_button" type="submit" name="form_auth_submit" onClick={exit}>Выйти</button>
